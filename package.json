@@ -1,0 +1,21 @@
+{
+  "name": "b16fowler.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/b16fowler/b16fowler.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/b16fowler/b16fowler.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b16fowler/b16fowler.github.io.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start chrome https://b16fowler.github.io"
+  }
+}
