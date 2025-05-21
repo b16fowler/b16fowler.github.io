@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Brett Fowler's Page</title>
   </head>
-  <body>
-    Welcome to Brett Fowler's website :D
+  <body class="dark-mode">
+    <h1>Welcome to Brett Fowler's website :D</h1>
+    <div class="tab">
+      <button
+        id="home-tab-link"
+        class="tab-link active"
+        onclick="handleTabClick(event, 'home')"
+      >
+        Home
+      </button>
+      <button
+        id="about-tab-link"
+        class="tab-link"
+        onclick="handleTabClick(event, 'about')"
+      >
+        About Me
+      </button>
+    </div>
+    <div id="home-content" class="tab-content" style="display: block">
+      <h4>Home</h4>
+      <p>This is the home tab information</p>
+    </div>
+    <div id="about-content" class="tab-content" style="display: none">
+      <h4>About Me</h4>
+      <p>This is the about me tab information</p>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>
