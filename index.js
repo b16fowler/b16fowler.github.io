@@ -18,7 +18,7 @@ function handleTabClick(e, tab) {
     tab.style.display = "none";
   });
 
-  // Add active to correct tab's class and unhide that tabs content
+  // Add active to correct tab's class and unhide that tab's content
   tabLink.classList.toggle("active");
   tabContent.style.display = "block";
 }
