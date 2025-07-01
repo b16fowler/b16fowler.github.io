@@ -17,11 +17,11 @@
         Home
       </button>
       <button
-        id="about-tab-link"
+        id="resume-tab-link"
         class="tab-link"
-        onclick="handleTabClick(event, 'about')"
+        onclick="handleTabClick(event, 'resume')"
       >
-        About Me
+        Resume
       </button>
       <button
         id="cover-letter-tab-link"
@@ -42,13 +42,21 @@
       <h4>Home</h4>
       <p>This is the home tab information</p>
     </div>
-    <div id="about-content" class="tab-content" style="display: none">
-      <h4>About Me</h4>
-      <p>This is the about me tab information</p>
+    <div id="resume-content" class="tab-content" style="display: none">
+      <embed
+        src="../files/resume.pdf"
+        type="application/pdf"
+        width="100%"
+        height="700px"
+      />
     </div>
     <div id="cover-letter-content" class="tab-content" style="display: none">
-      <h4>Cover Letter</h4>
-      <p>This is the cover letter tab information</p>
+      <embed
+        src="../files/cover-letter.pdf"
+        type="application/pdf"
+        width="100%"
+        height="700px"
+      />
     </div>
     <div id="faq-content" class="tab-content" style="display: none">
       <h4>FAQ</h4>
