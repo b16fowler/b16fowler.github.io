@@ -1,10 +1,10 @@
 .dark-mode {
-  background-color: rgb(41, 38, 38);
+  background-color: #292626;
   color: white;
 }
 
 .header {
-  background-color: rgb(117, 134, 143);
+  background-color: #75868f;
   color: #00eeff;
   text-align: center;
   font-size: 32px;
