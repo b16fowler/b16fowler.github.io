@@ -7,7 +7,7 @@
     <title>Brett Fowler's Page</title>
   </head>
   <body class="dark-mode">
-    <h1>Welcome to Brett Fowler's website :D</h1>
+    <h3 class="header">Welcome to Brett Fowler's website</h3>
     <div class="tab">
       <button
         id="home-tab-link"
@@ -24,6 +24,13 @@
         About Me
       </button>
       <button
+        id="cover-letter-tab-link"
+        class="tab-link"
+        onclick="handleTabClick(event, 'cover-letter')"
+      >
+        Cover Letter
+      </button>
+      <button
         id="faq-tab-link"
         class="tab-link"
         onclick="handleTabClick(event, 'faq')"
@@ -38,6 +45,10 @@
     <div id="about-content" class="tab-content" style="display: none">
       <h4>About Me</h4>
       <p>This is the about me tab information</p>
+    </div>
+    <div id="cover-letter-content" class="tab-content" style="display: none">
+      <h4>Cover Letter</h4>
+      <p>This is the cover letter tab information</p>
     </div>
     <div id="faq-content" class="tab-content" style="display: none">
       <h4>FAQ</h4>

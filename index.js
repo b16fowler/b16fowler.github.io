@@ -14,6 +14,7 @@ function handleTabClick(e, tab) {
 
   // Hide all tab content
   const tabContents = document.querySelectorAll(".tab-content");
+
   tabContents.forEach((tab) => {
     tab.style.display = "none";
   });
