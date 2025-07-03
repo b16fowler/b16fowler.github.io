@@ -3,12 +3,6 @@ body {
   padding: 0;
 }
 
-iframe {
-  width: 100%;
-  height: 800px;
-  border: none;
-}
-
 .dark-mode {
   background-color: #292626;
   color: white;
