@@ -1,3 +1,13 @@
+/**************************************************************************
+ * index.js
+ * 
+ * To do:
+ * Fix pathing? issue on embedded files
+ * Hide toolbar button
+ * Better CSS
+ * 
+ **************************************************************************/
+
 function handleTabClick(e, tab) {
   e.preventDefault();
 
