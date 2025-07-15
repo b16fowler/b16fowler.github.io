@@ -30,10 +30,35 @@ body {
   cursor: pointer;
 }
 
-button {
+.tab-button {
   margin: 0;
   float: left;
   font-size: xx-large;
   border: 1px solid black;
   width: 25%;
+}
+
+.sub-button {
+  border: 1px solid black;
+  width: 12%;
+  float: right;
+  margin-left: 5px;
+  margin-right: 4px;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(-30px); /* Start 30px lower */
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#cert-content {
+  align-content:end
 }
