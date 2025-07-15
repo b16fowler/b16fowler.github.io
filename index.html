@@ -4,39 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
-    <link rel="icon" type="image/x-icon" href="../files/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="files/favicon.ico" />
     <title>Brett Fowler's Page</title>
   </head>
   <body class="dark-mode">
     <h3 class="header">Welcome to Brett Fowler's website</h3>
     <div class="tab">
       <button
-        id="home-tab-link"
-        class="tab-link active"
+        id="home-tab-button"
+        class="tab-button active"
         onclick="handleTabClick(event, 'home')"
       >
         Home
       </button>
       <button
-        id="resume-tab-link"
-        class="tab-link"
+        id="resume-tab-button"
+        class="tab-button"
         onclick="handleTabClick(event, 'resume')"
       >
         Resume
       </button>
       <button
-        id="cover-letter-tab-link"
-        class="tab-link"
+        id="cover-letter-tab-button"
+        class="tab-button"
         onclick="handleTabClick(event, 'cover-letter')"
       >
         Cover Letter
       </button>
       <button
-        id="faq-tab-link"
-        class="tab-link"
-        onclick="handleTabClick(event, 'faq')"
+        id="cert-tab-button"
+        class="tab-button"
+        onclick="handleTabClick(event, 'cert')"
       >
-        FAQ
+        Certifications/Certificates
       </button>
     </div>
     <div id="home-content" class="tab-content" style="display: block">
@@ -51,9 +51,10 @@
         height="850px"
         title="Resume"
       >
-    <p>
-      Your browser does not support PDFs.
-    </p></object>
+        <p>
+          Your browser does not support PDFs.
+        </p>
+      </object>
     </div>
     <div id="cover-letter-content" class="tab-content" style="display: none">
       <object
@@ -63,13 +64,14 @@
         height="850px"
         title="Cover Letter"
       >
-    <p>
-      Your browser does not support PDFs.
-    </p></object>
+        <p>
+          Your browser does not support PDFs.
+        </p>
+      </object>
     </div>
-    <div id="faq-content" class="tab-content" style="display: none">
-      <h4>FAQ</h4>
-      <p>This is the FAQ tab information</p>
+    <div id="cert-content" class="tab-content" style="display: none">
+        <button class="sub-button" onclick="handleSubClick(event, 'certificates')">Certificates</button>
+        <button class="sub-button" onclick="handleSubClick(event, 'certifications')">Certifications</button>
     </div>
   </body>
   <script src="src/index.js"></script>
