@@ -45,8 +45,14 @@ function handleTabClick(e, tab) {
 function handleSubClick(e, button) {
   e.preventDefault();
 
+  // Hide all links
+  const certLinks = document.querySelector("#cert-links").querySelectorAll("a");
+  certLinks.forEach(link => {
+    link.style.display = "none";
+  });
+
   // Display link for button pressed
-  console.log(button);
+  document.querySelector(`#${button}-link`).style.display = "block";
 }
 
 function handleLinkClick(e, link) {
