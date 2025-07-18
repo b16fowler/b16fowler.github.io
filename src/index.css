@@ -53,7 +53,7 @@ body {
 
 .animate {
   opacity: 0;
-  transform: translateY(-30px); /* Start 30px lower */
+  transform: translateY(-30px);
   animation: slideIn 0.5s ease-out forwards;
 }
 
