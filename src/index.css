@@ -74,8 +74,10 @@ body {
 
 a {
   color: #00eeff;
+  font-size: x-large;
+  margin: 20px;
 }
 
 a:hover {
-  margin: auto;
+  color: hotpink;
 }
