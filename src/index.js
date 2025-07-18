@@ -46,18 +46,16 @@ function handleSubClick(e, button) {
   e.preventDefault();
 
   // Hide all links
-  const certLinks = document.querySelector("#cert-links").querySelectorAll("a");
-  certLinks.forEach(link => {
+  const certDivs = document.querySelectorAll("#links");
+  certDivs.forEach(link => {
     link.style.display = "none";
   });
 
-  // Display link for button pressed
-  document.querySelector(`#${button}-link`).style.display = "block";
+  // Display links for button pressed
+  document.querySelector(`#${button}`).style.display = "block";
 }
 
-function handleLinkClick(e, link) {
-  e.preventDefault();
-
+function handleLinkClick(link) {
   console.log(link);
 }
 
