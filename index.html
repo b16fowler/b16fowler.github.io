@@ -74,14 +74,28 @@
         <button id="certifications-button" class="sub-button" onclick="handleSubClick(event, 'certifications')">Certifications</button>
     </div>
     <div id="certificates-links" class="tab-content links" style="display: none">
-      <a id="js-cert"></a>
+      <a id="js-cert" href="...">Javascript certificate</a>
+      <a id="react-cert" href="...">React certificate</a>
     </div>
     <div id="certifications-links" class="tab-content links" style="display: none">
-      <a id="lift-cert">Scissor lift certification</a>
+      <a id="lift-cert" href="javascript:handleLinkClick('lift-cert')">Scissor lift certification</a>
+      <a id="other-cert" href="javascript:handleLinkClick('other-cert')">Some second certification</a>
     </div>
-    <div id="sub-content" class="tab-content certifications" style="display: none">
+    <div id="sub-content" class="tab-content lift-cert" style="display: none">
       <object
         data="files/lift-cert.pdf"
+        type="application/pdf"
+        width="100%"
+        height="800px"
+      >
+        <p>
+          Your browser does not support PDFs.
+        </p>
+      </object>
+    </div>
+    <div id="sub-content" class="tab-content other-cert" style="display: none">
+      <object
+        data="files/other-cert.pdf"
         type="application/pdf"
         width="100%"
         height="800px"
