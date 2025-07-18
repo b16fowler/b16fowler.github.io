@@ -45,6 +45,7 @@ function handleTabClick(e, tab) {
 function handleSubClick(e, button) {
   e.preventDefault();
 
+  // Display link for button pressed
   console.log(button);
 }
 

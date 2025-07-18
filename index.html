@@ -73,8 +73,8 @@
         <button class="sub-button" onclick="handleSubClick(event, 'certificates')">Certificates</button>
         <button class="sub-button" onclick="handleSubClick(event, 'certifications')">Certifications</button>
     </div>
-    <div id="cert-links" style="display: none">
-      <a id="certicates-link" style="display: none" onclick="handleLinkClick(event, certificates)">Certificates</a>
+    <div id="cert-links">
+      <a id="certificates-link" style="display: none" onclick="handleLinkClick(event, certificates)">Certificates</a>
       <a id="certifications-link" style="display: none" onclick="handleLinkClick(event, certifications)">Certifications</a>
     </div>
     <div id="sub-content" class="tab-content certifications" style="display: none">
@@ -83,8 +83,6 @@
         type="application/pdf"
         width="100%"
         height="800px"
-        title="Lift Certification"
-        id="lift-cert"
       >
         <p>
           Your browser does not support PDFs.
