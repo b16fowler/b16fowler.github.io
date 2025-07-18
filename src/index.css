@@ -71,3 +71,11 @@ body {
 #cert-links {
   align-items: center;
 }
+
+a {
+  color: #00eeff;
+}
+
+a:hover {
+  margin: auto;
+}
