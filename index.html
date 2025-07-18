@@ -69,9 +69,13 @@
         </p>
       </object>
     </div>
-    <div id="cert-content" class="tab-content" style="display: none">
+    <div id="cert-buttons" class="tab-content" style="display: none">
         <button class="sub-button" onclick="handleSubClick(event, 'certificates')">Certificates</button>
         <button class="sub-button" onclick="handleSubClick(event, 'certifications')">Certifications</button>
+    </div>
+    <div id="cert-links" style="display: none">
+      <a id="certicates-link" style="display: none" onclick="handleLinkClick(event, certificates)">Certificates</a>
+      <a id="certifications-link" style="display: none" onclick="handleLinkClick(event, certifications)">Certifications</a>
     </div>
     <div id="sub-content" class="tab-content certifications" style="display: none">
       <object
