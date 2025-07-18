@@ -46,7 +46,7 @@ function handleSubClick(e, button) {
   e.preventDefault();
 
   // Hide all links
-  const certDivs = document.querySelectorAll("#links");
+  const certDivs = document.querySelectorAll(".links");
   certDivs.forEach(link => {
     link.style.display = "none";
   });
