@@ -41,7 +41,7 @@ body {
 .sub-button {
   border: 1px solid black;
   width: 13%;
-  float: none;
+  float: right;
 }
 
 .sub-button:hover {
