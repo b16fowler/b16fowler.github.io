@@ -46,6 +46,11 @@ body {
   margin-right: 4px;
 }
 
+.sub-button:hover {
+  cursor: pointer;
+  background-color: #5b7476;
+}
+
 .animate {
   opacity: 0;
   transform: translateY(-30px); /* Start 30px lower */
