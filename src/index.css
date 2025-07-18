@@ -67,3 +67,7 @@ body {
 #cert-buttons {
   align-content:end
 }
+
+#cert-links {
+  align-items: center;
+}
