@@ -45,12 +45,24 @@ function handleTabClick(e, tab) {
 function handleSubClick(e, button) {
   e.preventDefault();
 
-  // Hide both certifications and certificates
-  const subDivs = document.querySelectorAll("#sub-content");
-  subDivs.forEach(div => {
-    div.style.display = "none";
-  });
-
-  // Display div for button pressed
-  document.querySelector(`.${button}`).style.display = "block";
+  console.log(button);
 }
+
+function handleLinkClick(e, link) {
+  e.preventDefault();
+
+  console.log(link);
+}
+
+// function handleSubClick(e, button) {
+//   e.preventDefault();
+
+//   // Hide both certifications and certificates
+//   const subDivs = document.querySelectorAll("#sub-content");
+//   subDivs.forEach(div => {
+//     div.style.display = "none";
+//   });
+
+//   // Display div for button pressed
+//   document.querySelector(`.${button}`).style.display = "block";
+// }
