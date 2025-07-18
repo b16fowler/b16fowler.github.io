@@ -24,7 +24,6 @@ function handleTabClick(e, tab) {
 
   // Hide all tab content
   const tabContents = document.querySelectorAll(".tab-content");
-
   tabContents.forEach(tab => {
     tab.style.display = "none";
   });
@@ -53,21 +52,16 @@ function handleSubClick(e, button) {
 
   // Display links for button pressed
   document.querySelector(`#${button}-links`).style.display = "block";
+
+  // Toggle active on all sub buttons
+  const subButtons = document.querySelectorAll(".sub-button");
+  subButtons.forEach(subButton => {
+    subButton.classList.remove("active");
+  });
+  document.querySelector(`#${button}-button`).classList.add("active");
 }
 
-function handleLinkClick(link) {
-  console.log(link);
+function handleLinkClick(path) {
+  //
+  document.querySelector(`.${path}`).style.display = "block";
 }
-
-// function handleSubClick(e, button) {
-//   e.preventDefault();
-
-//   // Hide both certifications and certificates
-//   const subDivs = document.querySelectorAll("#sub-content");
-//   subDivs.forEach(div => {
-//     div.style.display = "none";
-//   });
-
-//   // Display div for button pressed
-//   document.querySelector(`.${button}`).style.display = "block";
-// }
