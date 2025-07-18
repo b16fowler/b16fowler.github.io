@@ -52,7 +52,7 @@ function handleSubClick(e, button) {
   });
 
   // Display links for button pressed
-  document.querySelector(`#${button}`).style.display = "block";
+  document.querySelector(`#${button}-links`).style.display = "block";
 }
 
 function handleLinkClick(link) {
