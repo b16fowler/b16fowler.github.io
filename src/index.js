@@ -45,5 +45,7 @@ function handleTabClick(e, tab) {
 function handleSubClick(e, button) {
   e.preventDefault();
 
-  console.log(button);
+  // Hide both certifications and certificates, then display one
+  document.querySelectorAll("#sub-content").style.display = "none";
+  document.querySelector(`.${button}`).style.display = "block";
 }
